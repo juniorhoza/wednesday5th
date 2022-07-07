@@ -51,7 +51,7 @@ main{
 }
 .left>img{
     position: relative;
-    top: -200px;
+    top: -100px;
     /* position: absolute; */
    transform:rotate(340deg)scale(0.86);
   
@@ -114,6 +114,7 @@ form>input{
     border: none;
     /* border-bottom: 1px solid black; */
     width: 250px;
+    background:none;
 }
 input[type=submit]{
  border: none;
@@ -193,6 +194,9 @@ display: none;
     }
 .pi{
     background-position: center center;
+}
+main{
+    height: 850px;
 }
 .ko{
     display:block;

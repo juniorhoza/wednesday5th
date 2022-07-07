@@ -7,6 +7,10 @@
 p{
     text-transform: uppercase;
 }
+a{
+    color:rgb(197, 183, 183);
+    text-decoration: none;
+}
 body{
     display: flex;
     align-items: center;
@@ -119,6 +123,55 @@ backdrop-filter: blur(30px);
     align-items:center;
     justify-content:center;
     gap: 10px;
+}
+.verif{
+    font-size: 13px;
+    position: absolute;
+    align-self: flex-end;
+    right:170px;
+    top: 99px;
+    text-transform: capitalize;
+    
+    color:rgb(197, 183, 183);
+}
+.la{
+    top: 130px;
+    font-size: 16px;
+}
+.verif::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:0;
+    height:1.4px;
+    background:black;
+    color:black;
+    transition: .6s all ease-in-out;
+}
+.verif:hover::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width:95px;
+    height:1px;
+    background:rgb(64, 182, 34);
+    color:black;
+}
+.la:hover::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width:50px;
+    height:1px;
+    background:rgb(182, 34, 34);
+    color:black;
+}
+.inner-verif{
+    font-size:17px;
+    font-weight: bold;
 }
 footer{
     position:absolute;

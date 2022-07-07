@@ -32,7 +32,7 @@ if(isset($_POST['fname'])&&isset($_POST['lname'])&&isset($_POST['name'])&&isset(
 //queries
         $sql="SELECT 1 FROM cam WHERE  username= '$name';";
        
-        $query="INSERT INTO cam (firstName, lastName, username, age, sex,password)  VALUES ('$fname','$lname','$name','$age','$sex','$password');";
+        $query="INSERT INTO cam (firstName, lastName, username, age, sex,password)  VALUES ('$fname','$lname','$name','$age','$sex',sha(md5('$password')));";
     //end queries
      $result=mysqli_query($conn,$sql);
 
