@@ -1,0 +1,201 @@
+*{
+    font-family: "poppins";
+}
+a{
+    text-decoration: none;
+  color: #1943D9;
+}
+body{
+    background:#e4d2d2;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.mn{
+    top: 10vh;
+}
+main{
+    width: 80vw;
+    height: 80vh;
+    
+    overflow: hidden;
+    border-radius: 30px;;
+    
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background:white;
+}
+.sec{
+    width: 84vw;
+    height: 750px;
+    
+}
+.left{
+   width: 55vw;
+   height: 120vh;
+   background: url("img/back_camtrack.png");
+   background-size: cover;
+   background-position: bottom bottom;
+   /* box-shadow: 8px 4px 11px 18px rgba(0, 0, 0, 0.25); */
+  position: absolute;
+   transform: matrix(0.98, 0.31, -0.21, 0.95, 0, 0);
+   top: -160px;
+   left:-230px;
+   overflow:hidden;
+   display: flex;
+   align-items:center;
+   justify-content:center;
+}
+.left>img{
+    position: relative;
+    top: -200px;
+    /* position: absolute; */
+   transform:rotate(340deg)scale(0.86);
+  
+}
+.right{
+    display:flex;
+   align-items:center;
+    justify-content:center;
+    width: 1250px;
+   height: 120vh;
+   flex-direction: column;
+   position: relative;
+  z-index: 1;
+  /* background:red; */
+  text-align: center;
+  position:relative;
+  left:350px;
+  text-align: left;
+   
+   
+}
+.login{
+    text-transform: uppercase;
+    position:relative;
+    top: -15px;
+
+}
+input[type=number]::-webkit-inner-spin-button{
+    appearance: none;
+    
+}
+input[type=number]{
+    width: 100px;
+    border: none;
+    outline:none;
+}
+select{
+    position: relative;
+    left: 80px;
+    outline: none;
+    border: none;
+}
+
+.login::before{
+content: "";
+position: absolute;
+bottom: 0;
+width:75px;
+height:1px;
+background:black;
+color:black;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+form>input{
+    border: none;
+    /* border-bottom: 1px solid black; */
+    width: 250px;
+}
+input[type=submit]{
+ border: none;
+ background: #1943D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: white;
+height: 50px;
+width: 200px;
+margin: auto;
+font-size: 19px;
+border-radius: 25px;
+}
+label{
+    position: relative;
+    width:290px;
+    top: -20px;
+    border:1px solid #776969;
+}
+input::placeholder{
+    font-size: 17px;
+}
+
+
+input:focus{
+    border: none;
+    outline: none;
+}
+input[type=text]:focus{
+    border: none;
+    outline: none;
+}
+input[type=text]{
+    border: none;
+    outline: none;
+}
+.usern{
+    display: flex;
+}
+.lab{
+    position: relative;
+    width:100px;
+    top: -15px;
+   
+    border:1px solid #776969;
+}
+.laa{
+    display: flex;
+    gap: 90px;
+}
+.welc{
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 23.5px;
+    text-transform: capitalize;
+}
+.err{
+    color :rgb(248, 248, 248);
+    background:rgb(110, 100, 100);
+    width: 360px;
+    height:55px;
+    text-align: center;
+    border-radius: 10px;
+}
+.ko{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .left{
+display: none;
+    }
+    .right{
+        width:500px;
+        left: -15px;
+        background:url("img/back_camtrack.png");
+
+        background-attachment: fixed;
+    }
+.pi{
+    background-position: center center;
+}
+.ko{
+    display:block;
+    transform: scale(.8);
+}
+}
