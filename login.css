@@ -191,15 +191,24 @@ display: none;
         background:url("img/back_camtrack.png");
 
         background-attachment: fixed;
+        background-position: bottom bottom;
+        background-size: cover;
     }
 .pi{
     background-position: center center;
 }
-main{
-    height: 850px;
+.sec{
+    height: 126vh;
 }
 .ko{
     display:block;
     transform: scale(.8);
 }
+input{
+    background: none;
+}
+select{
+    background: none;
+}
+
 }

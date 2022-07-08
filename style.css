@@ -237,6 +237,21 @@ font-size: 12px;
     .circle{
         overflow: hidden;
     }
+    .verif{
+        font-size: 13px;
+        position: absolute;
+        align-self: flex-end;
+        right:170px;
+        left:-50px;
+        top: 99px;
+        text-transform: capitalize;
+        
+        color:rgb(197, 183, 183);
+    }
+    .la{
+        top: 130px;
+        font-size: 16px;
+    }
 
 }
 
