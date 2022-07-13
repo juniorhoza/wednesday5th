@@ -48,7 +48,7 @@ session_destroy();
                     <div class="innerbox">
                         <img src="img/ic_poll_24px.svg" alt="">
                     </div>
-                    <p>outil de <br> gestion & suivi</p>
+                     <p><a href="form/index.html">outil de <br> gestion & suivi</a> </p>
                 </div>
                 <div class="box" style="background-color: #1976D2;">
                     <div class="innerbox" style="background-color: #3F9CF8E5;">

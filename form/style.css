@@ -1,0 +1,173 @@
+*{
+
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #cecfdd;
+    font-family: "poppins";
+}
+main{
+    
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow-x: hidden;
+}
+section{
+    width:50vw;
+    
+}
+.display{
+display: block;
+}
+div{
+    background-color: white;
+    margin: 13px;
+    padding: 12px;
+    border-radius:6px;
+
+}
+input{
+    border: none;
+    font-size: 17px;
+
+    
+}
+div>h1{
+    font-weight: 400;
+    font-size: 16.8px;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    font-size: 17px;
+}
+.points{
+    text-align: right;
+    margin-top: -22px;
+}
+.ri{
+    background:#cecfdd;
+    width:270px;
+    height: 1px;
+    position: relative;
+    top: -11px;
+    margin-bottom:16px ;
+}
+select{
+    width:160px;
+    text-transform: uppercase;
+    padding:10px;
+}
+option{
+    width:160px;
+    text-transform: uppercase;
+     border-bottom: 1px solid black;
+}
+.button,.direction{
+    background:none;
+    border: none;
+    
+}
+.button{
+display:flex;    
+ align-items: center;
+justify-content: space-between;
+}
+button{
+    background:none;
+    
+
+}
+.direction{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    width: 20px;
+}
+#nock{
+    background:white;
+    color:#5d5e8e;
+    padding:12px;
+    border-radius: 5px
+    ;
+}
+#bock{
+    color:white;
+    background-color:#5d5e8e;
+    padding:12px;
+    border-radius: 5px
+    ;
+}
+radio{
+    display:flex;
+    flex-direction: column;
+    gap: 1;
+}
+.tit{
+    margin-left: -11.5px;
+    text-transform: uppercase;
+    color:white;
+    background-color: #5d5e8e;
+    padding:12px;
+    margin-bottom: 0;
+    width: 100%;
+    /* width: inherit +1110px;   */
+    width: 730px;
+    border-radius:10px 10px 0 0 ;
+    margin-top: -15px;
+}
+
+.button>*{
+    cursor:context-menu;
+}
+.impo{
+    color:red;
+}
+.red{
+    border: 1px solid red;
+}
+.image>img{
+    width:75%;
+    height: 30%;
+}
+@media only screen and (max-width: 600px) {
+    section{
+        width: 98%;
+    }
+    .tit{
+        margin-left: -11.5px;
+        text-transform: uppercase;
+        color:white;
+        background-color: #5d5e8e;
+        padding:12px;
+        margin-bottom: 0;
+        width: 100%;
+        /* width: inherit +1110px;   */
+        width: 486px;
+        border-radius:10px 10px 0 0 ;
+        margin-top: -15px;
+    }
+
+
+}
+@media only screen and (max-width: 920px) {
+    section{
+        width: 98%;
+    }
+
+
+ .button{
+     width: 100vw;
+     gap: 90px;
+     justify-content: center;
+ }
+ 
+}

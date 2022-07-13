@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main">
+
+           <section class="display">
+            <div class="image">
+              <img src="img/Untitled-2.png" alt="">
+            </div>
+                  <div class="gestion_des_chauffeurs">
+                      <h1 class="tit"></h1>
+                      <h1>GESTION DES CHAUFFEURS</h1>
+                      <p>Ce module permet de vérifier l'existence ou non des conditions nécéssaires à la performance des chauffeurs (formation, évaluation, analyse des comportement …etc), afin de lui proposer le service manquant et dont il aurait besoin</p>
+                  </div>
+                  <div class="sub_form">
+                      <h1>Représentant des ventes
+                        </h1>
+                        <select name="ventes" id="ventes">
+
+                            <option value="choose" disabled>choose</option>
+                            <option value="CareneNono">Carene Nono</option>
+                            <option value="TatianaSamain">Tatiana Samain</option>
+                            <option value="NathalieFandja">Nathalie Fandja</option>
+                            <option value="MichaelDjomkam">Michael Djomkam</option>
+                        </select>
+                  </div>
+                  <div class="sub_form ">
+                    <h1>Nom du client <span class="impo">*</span>
+                      </h1>
+                       <input type="text" name="client" id="client" placeholder="your answer" class="im">
+                      
+                       <p class="ri"></p>
+                </div>
+                <div class="sub_form">
+                    <h1>Nom du contact <span class="impo">*</span>
+                      </h1>
+                       <input type="text" name="contact" id="contact" placeholder="your answer" class="im">
+                       <p class="ri"></p>
+                </div>
+                
+                <div class="sub_form">
+                    <h1>Telephone contact <span class="impo">*</span>
+                      </h1>
+                       <input type="number" name="tel" id="tel" placeholder="your answer" class="im">
+                       <p class="ri"></p>
+                </div>
+                <div class="sub_form">
+                    <h1>Email Contact <span class="impo">*</span>
+                      </h1>
+                       <input type="email" name="email" id="email" placeholder="your answer" class="im">
+                       <p class="ri"></p>
+                </div>
+               
+           </section>
+      <section>
+          <!-- debut formation -->
+        <div class="sub_form ">
+            <h1 class="tit">formation <p class="points"> 0/14points </p></h1>
+          <h1 class="t">FOR1:Vos conducteurs effectuent t -ils des formations en Conduite défensive ? 
+            </h1>
+            <div class="radio im">
+                
+<div><input type="radio" name="for1" id="oui" value="oui"  class="im">
+    <label for="oui">oui</label></div>
+<div> <input type="radio" name="for1" id="non" value="non"  class="im">
+    <label for="non">non</label></div>
+               
+            </div>
+      </div>
+      <div class="sub_form">
+          <h1>Si non est-elle nécessaire  ?
+            </h1>
+             <input type="text" name="for_neccesaire" id="for1-reason" placeholder="your answer">
+             <p class="ri"></p>
+
+      </div>
+      <div class="sub_form">
+        
+        <h1>FOR2:Vos conducteurs effectuent t -ils des formations en Secourisme ? <span class="impo">*</span>
+
+          </h1>
+          <div class="radio">
+                
+            <div><input type="radio" name="for2" id="oui" value="oui"  class="im">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="for2" id="non" value="non"  class="im">
+                <label for="non">non</label></div>
+                           
+                        </div>
+    </div>
+    <div class="sub_form">
+        <h1>Si non est-elle nécessaire  ?
+          </h1>
+           <input type="text" name="for_neccesaire" id="for1-reason" placeholder="your answer">
+           <p class="ri"></p>
+
+    </div>
+    <div class="sub_form">
+        <h1>FOR3:Vos conducteurs effectuent t-ils des formations en Fire fighting ?<span class="impo">*</span>
+            *
+
+          </h1>
+          <div class="radio">
+                
+            <div><input type="radio" name="for3" id="oui" value="oui"  class="im">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="for3" id="non" value="non"  class="im">
+                <label for="non">non</label></div>
+                           
+                        </div>
+    </div>
+    <div class="sub_form">
+        <h1>Si non est-elle nécessaire  ?
+          </h1>
+           <input type="text" name="for_neccesaire" id="for1-reason" placeholder="your answer">
+           <p class="ri"></p>
+
+    </div>
+    <div class="sub_form">
+        <h1>FOR4:Il existe des recyclages pour des formations sus citées ?'Si oui, quelle  en est la fréquence?
+          </h1>
+          <div class="radio">
+                
+            <div><input type="radio" name="for4" id="oui" value="oui"  class="im">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="for4" id="non" value="non"  class="im">
+                <label for="non">non</label></div>
+                           
+                        </div>
+    </div>
+    <div class="sub_form">
+        <h1>Si non est-elle nécessaire  ?<span class="impo">*</span>
+          </h1>
+           <input type="text" name="for_neccesaire" id="for1-reason" placeholder="your answer" class="im">
+           <p class="ri"></p>
+
+    </div>
+    <div class="sub_form">
+        <h1>FOR5:Si vos chauffeurs ne reçoivent aucune formation actuellement, pensez -vous qu'il serait intéressant de les former ?<span class="impo">*</span> 
+
+          </h1>
+          <div class="radio">
+                
+            <div><input type="radio" name="for5" id="oui" value="oui"  class="im">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="for5" id="non" value="non"  class="im">
+                <label for="non">non</label></div>
+                           
+                        </div>
+    </div>
+    <!-- end formation -->
+    
+      </section>
+      <section>
+        <!-- centre devaluation -->
+     
+     
+      <div class="sub_form">
+        <h1 class="tit">Critères d'évaluation</h1>        
+
+        <h1>CE1:Vos chauffeurs sont évalués sur: Respect des violations comportementales (excès de vitesse, freinages brusques, accélérations brusques)?
+          </h1>
+          <div class="radio">
+                
+            <div><input type="radio" name="ce1" id="oui" value="oui">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="ce1" id="non" value="non">
+                <label for="non">non</label></div>
+                           
+                        </div>
+    </div>
+    <div class="sub_form">
+        <h1>Si non est-elle nécessaire  ?
+          </h1>
+           <input type="text" name="for_neccesaire" id="for1-reason" placeholder="your answer">
+           <p class="ri"></p>
+    </div>
+    <div class="sub_form">
+      <h1>CE2:Vos chauffeurs sont évalués sur: Respect des violations de temps: (Conduites continues, conduites hebdomadaires, conduites de nuits, repos entre trajets)?
+
+        </h1>
+        <div class="radio">
+                
+            <div><input type="radio" name="ce2" id="oui" value="oui">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="ce2" id="non" value="non">
+                <label for="non">non</label></div>
+                           
+                        </div>
+  </div>
+  <div class="sub_form">
+      <h1>Si non est-elle nécessaire  ?
+        </h1>
+         <input type="text" name="for_neccesaire" id="for1-reason" placeholder="your answer">
+         <p class="ri"></p>
+  </div>
+  <div class="sub_form">
+      <h1>CE3:Vos chauffeurs sont évalués sur: Attitudes au volant (distraction,  téléphone, conduite en état de fatigue, conduite en état d'ivresse)
+
+        </h1>
+        <div class="radio">
+                
+            <div><input type="radio" name="ce3" id="oui" value="oui">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="ce3" id="non" value="non">
+                <label for="non">non</label></div>
+                           
+                        </div>
+  </div>
+  <div class="sub_form">
+      <h1>Si non est-elle nécessaire  ?
+        </h1>
+         <input type="text" name="for_neccesaire" id="for1-reason" placeholder="your answer">
+         <p class="ri"></p>
+  </div>
+  <div class="sub_form">
+      <h1>CE4:Si vous n'avez pas mis en place les critères d'évaluation, ça vous intéresserait de les mettre en place ?
+        </h1>
+        <div class="radio">
+                
+            <div><input type="radio" name="ce4" id="oui" value="oui">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="ce4" id="non" value="non">
+                <label for="non">non</label></div>
+                           
+                        </div>
+  </div>
+  
+  <!-- end CE -->
+  
+    </section>
+    <section>
+        <!-- identification des chauffeurs -->
+     
+      <div class="sub_form">
+        <h1 class="tit">COMPORTEMENT DE CONDUITE</h1>  
+          
+        <h1>CC1:Avez-vous mis en place des  mesures pour combattre les mauvaises attitudes des chauffeurs au volant  ?
+          </h1>
+          <div class="radio">
+                
+            <div><input type="radio" name="cc1" id="oui" value="oui">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="cc1" id="non" value="non">
+                <label for="non">non</label></div>
+                           
+                        </div>
+    </div>
+    <div class="sub_form">
+        <h1>Si non, pensez vous quand même que c'est nécessaire de le faire ?
+          </h1>
+           <input type="text" name="for_neccesaire" id="for1-reason" placeholder="your answer">
+           <p class="ri"></p>
+    </div>
+    <div class="sub_form">
+      <h1>CC2:Faites vous passer des contrôles inopinés ou planifiés d'alcool aux chauffeurs?
+
+        </h1>
+        <div class="radio">
+                
+            <div><input type="radio" name="cc2" id="oui" value="oui">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="cc2" id="non" value="non">
+                <label for="non">non</label></div>
+                           
+                        </div>
+  </div>
+  <div class="sub_form">
+      <h1>Si non est-elle nécessaire  ?
+        </h1>
+         <input type="text" name="for_neccesaire" id="for1-reason" placeholder="your answer">
+         <p class="ri"></p>
+  </div>
+  <div class="sub_form">
+      <h1>CC3:Organisez vous un challenge inter chauffeurs ? Inter région ?
+
+        </h1>
+        <div class="radio">
+                
+            <div><input type="radio" name="cc3" id="oui" value="oui">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="cc3" id="non" value="non">
+                <label for="non">non</label></div>
+                           
+                        </div>
+  </div>
+  <div class="sub_form">
+      <h1>Si oui, quelles sont elles, les modalités ?
+        </h1>
+         <input type="text" name="for_neccesaire" id="for1-reason" placeholder="your answer">
+         <p class="ri"></p>
+  </div>
+  
+  
+  <!-- end CE -->
+  
+    </section>
+    <section>
+        <!-- competence de conduite -->
+      
+     
+      <div class="sub_form">
+        <h1 class="tit">IDENTIFICATIONS DES CHAUFFEURS
+        </h1>        
+
+        <h1>IC1/Existe-t-il des outils d'identification du chauffeur dans vos véhicules ?
+
+          </h1>
+          <div class="radio">
+                
+            <div><input type="radio" name="ic1" id="oui" value="oui">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="ic1" id="non" value="non">
+                <label for="non">non</label></div>
+                           
+                        </div>
+    </div>
+   
+    <div class="sub_form">
+      <h1>IC2:Les données générées du suivi du chauffeur sont elles exploitées ?
+        *
+
+        </h1>
+        <div class="radio">
+                
+            <div><input type="radio" name="ic2" id="oui" value="oui">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="ic2" id="non" value="non">
+                <label for="non">non</label></div>
+                           
+                        </div>
+  </div>
+  
+  <div class="sub_form">
+      <h1>IC3:Recevez vous des notifications / alertes en cas d'infraction des chauffeurs ?
+
+        </h1>
+        <div class="radio">
+                
+            <div><input type="radio" name="ic3" id="oui" value="oui">
+                <label for="oui">oui</label></div>
+            <div> <input type="radio" name="ic3" id="non" value="non">
+                <label for="non">non</label></div>
+                           
+                        </div>
+  </div>
+  <div class="sub_form">
+      <h1>Quel est votre avis général sur l'importance de gestion des performance des chauffeurs (formation, évaluation, analyse des comportement)?
+        </h1>
+         <input type="text" name="for_neccesaire" id="for1-reason" placeholder="your answer">
+         <p class="ri"></p>
+  </div>
+  
+  
+  <!-- end CE -->
+    
+    </section>
+
+
+    </main>
+    <script src="script.js "></script>
+</body>
+</html>
