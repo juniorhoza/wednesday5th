@@ -2,7 +2,7 @@ let sections= document.querySelectorAll("section");
 let main=document.getElementById("main");
 let next=document.querySelectorAll(".next");
 let back=document.querySelectorAll(".back");
-let clearev=document.querySelectorAll(".clear");
+let clear=document.querySelector(".clear");
 let inpu=document.querySelectorAll("input")
 let tit=document.querySelectorAll(".tit");
 // const subform=document.querySelector(".sub_form").clientWidth
@@ -17,14 +17,13 @@ let pages=["index.html","formation.html","criteres.html","comportement.html","ch
 let link=Nlink.getAttribute("href")
 let important=document.querySelectorAll(".im")
     let container=[]
-Nlink.addEventListener("click",nxtpage)
-prevnock.addEventListener("click",bckpage)
+// Nlink.addEventListener("click",nxtpage)
+// prevnock.addEventListener("click",bckpage)
 let email=document.getElementById("email")
 // tit.style.width= "200px"
 
-for(const i of clearev){
-    i.addEventListener("click",erase)
-}
+clear.addEventListener("click",erase)
+
 
 // function
 
@@ -140,15 +139,14 @@ function bckpage(){
 
 function erase(){
 
-    if(sections[current].classList.contains("display")==true){
+    
 
     
-     inpu.forEach(function(i){
+     for(const input of inpu){
+          input.value=" "
+     }
 
-        return i.value=""
-     })
-
-    }
+    
 }
 
 
