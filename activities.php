@@ -46,13 +46,13 @@ session_destroy();
             <div class="group g1">
                 <div class="box">
                     <div class="innerbox">
-                        <img src="img/ic_poll_24px.svg" alt="">
+                        <img src="img/dashboard.png" alt="">
                     </div>
                      <p><a href="form/index.html">outil de <br> gestion & suivi</a> </p>
                 </div>
                 <div class="box" style="background-color: #1976D2;">
                     <div class="innerbox" style="background-color: #3F9CF8E5;">
-                        <img src="img/Groupe 1.svg" alt="">
+                        <img src="img/chauffeur (1).png" alt="">
                     </div>
                     <p>gestion des<br> chauffeurs</p>
 
@@ -61,13 +61,13 @@ session_destroy();
             <div class="group g1">
                 <div class="box" style="background-color: #1976D2;">
                     <div class="innerbox" style="background-color: #449FF8;">
-                        <img src="img/ic_ev_station_24px-1.svg" alt="">
+                        <img src="img/electric-car (1).png" alt="">
                     </div>
                     <p>gestion des <br> vehicules</p>
                 </div>
                 <div class="box" style="background-color: #01ACE2;">
                     <div class="innerbox" style="background-color: #0fbbf0;">
-                        <img src="img/ic_ev_station_24px-1.svg" alt="">
+                        <img src="img/petrol (2).png" alt="">
                     </div>
                     <p>exploitation</p>
 
@@ -75,13 +75,13 @@ session_destroy();
             </div><div class="group g1">
                 <div class="box" style="background-color: #1976D2;">
                     <div class="innerbox" style="background-color: #449FF8;">
-                        <img src="img/ic_ev_station_24px-1.svg" alt="">
+                        <img src="img/cyber-security.png" alt="">
                     </div>
                     <p>securite</p>
                 </div>
                 <div class="box" style="background-color: #1976D2;">
                     <div class="innerbox" style="background-color: #3F9CF8E5;">
-                        <img src="img/ic_ev_station_24px-1.svg" alt="">
+                        <img src="img/cargo-truck.png" alt="">
                     </div>
                     <p>gestion des <br> vehicules</p>
 

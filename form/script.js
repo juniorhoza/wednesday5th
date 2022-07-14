@@ -12,24 +12,25 @@ let err=0
 let count=0
 let prevnock=document.getElementById("bock")
 let Nlink=document.getElementById("nock")
-let pages=["index.html","formation.html","criteres.html","comportement.html","chauffeurs.html"]
+
 // variables declaration
 let link=Nlink.getAttribute("href")
 let important=document.querySelectorAll(".im")
-    let container=[]
-// Nlink.addEventListener("click",nxtpage)
-// prevnock.addEventListener("click",bckpage)
-let email=document.getElementById("email")
-// tit.style.width= "200px"
+let container=[]
+Nlink.addEventListener("click",nxtpage)
+//  prevnock.addEventListener("click",bckpage)
 
+// tit.style.width= "200px"
 clear.addEventListener("click",erase)
+
+
 
 
 // function
 
-function clear_all(i){
-    return i.addEventListener("click",erase)
-}
+// function clear_all(i){
+//     return i.addEventListener("click",erase)
+// }
 
 function remove_event(item){
     return item.addEventListener("click",bckpage)
@@ -142,10 +143,9 @@ function erase(){
     
 
     
-     for(const input of inpu){
-          input.value=" "
-     }
-
+    for (const i of inpu){
+      i.value=" "
+    }
     
 }
 
